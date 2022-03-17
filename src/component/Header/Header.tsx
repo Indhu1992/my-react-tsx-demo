@@ -11,16 +11,18 @@ export const Header = () => {
             <nav>
                 <ul>
                     <li>
-                        <Link to="Home">Home</Link>
+                        <Link to="Home"style={{textDecoration:"none"}}>Home</Link>
+                        {/* <Link to="Home">Home</Link> */}
+                        
                     </li>
                     <li>
-                        <Link to="About">About</Link>
+                        <Link to="About"style={{textDecoration:"none"}}>About</Link>
                     </li>
                     <li>
-                        <Link to="Services">Services</Link>
+                        <Link to="Services"style={{textDecoration:"none"}}>Services</Link>
                     </li>
                     <li>
-                        <Link to="Contact-us">Contact-us</Link>
+                        <Link to="Contact-us"style={{textDecoration:"none"}}>Contact-us</Link>
                     </li>
 
                 </ul>

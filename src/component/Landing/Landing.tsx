@@ -2,8 +2,6 @@ import { Suspense } from "react"
 import { Route, Routes } from "react-router-dom"
 import { About } from "../About/About"
 import { ContactUs } from "../Contact-us/ContactUs"
-import { Footer } from "../Footer/Footer"
-import { Header } from "../Header/Header"
 import { Home } from "../Home/Home"
 import { Services } from "../Services/Services"
 import './Landing.css'
